@@ -3,6 +3,16 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+h2 {
+    color: #181818;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+}
+section {
+    margin-bottom: 130px;
+}
 
 /* nav related stylesheet */
 nav {
@@ -57,12 +67,16 @@ nav ul li a {
     background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: right bottom;
+    margin-bottom: 130px;
 }
 .banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.banner-content {
+    max-width: 650px;
 }
 .banner .profile-pic {
     width: 580px;
@@ -85,4 +99,80 @@ nav ul li a {
     font-size: 18px;
     margin-bottom: 30px;
     line-height: 30px;
+}
+
+/* main section start */
+main {
+    
+    max-width: 1300px;
+    margin: 0 auto;
+}
+/* about section style */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+}
+.about .banner-text {
+    text-align: center;
+    margin: 30px 0;
+}
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+.about-info {
+    text-align: center;
+}
+/* what i do section start */
+.work-status {
+    text-align: center;
+    margin: 30px 0;
+    width: 950px;
+    padding: 30px 150px;
+}
+.skill-container {
+    display: flex;
+    gap: 20px;
+}
+.skill {
+    padding: 20px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-text {
+    color: #757575;
+}
+
+/* resume area start */
+.resume-column-title {
+    color:#474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+.resume-column-title {
+    font-size: 30px;
+}
+.resume-item-title {
+    font-size: 25px;
+    text-align: left;
+    margin-top: 30px;
+}
+.resume-item-institute {
+    margin: 10px 0 20px 0;
+}
+.resume-item-institute, .resume-item-text {
+    color: #757575;
+}
+hr {
+    margin: 30px 20px
+}
+.download-CV {
+    margin-top: 60px;
+    text-align: center;
 }
