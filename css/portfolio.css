@@ -176,3 +176,44 @@ hr {
     margin-top: 60px;
     text-align: center;
 }
+
+/* footer section start */
+footer {
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+.footer-container {
+    max-width: 1300px;
+    display: flex;
+    gap: 100px;
+    margin: 0 auto;
+}
+.footer-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+.footer-text {
+    padding: 30px 0;
+    color:#474747;
+    font-weight: 400;
+    line-height: 30px;
+}
+.social-links  a {
+    margin-right: 45px;
+    display: inline-block;
+}
+.footer-column {
+    width: 50%;
+}
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+    display: block;
+    padding: 18px 35px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
